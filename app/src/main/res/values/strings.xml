@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hotels</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_place">Mесто поиска</string>
+    <string name="arrive">Заезд</string>
+    <string name="departure">Выезд</string>
+    <string name="hotels_not_found">Отели не найдены</string>
+    <string name="default_currency">$</string>
+    <string name="price">Цены</string>
+    <string name="amenities">Услуги</string>
+    <string name="description">Описание</string>
+    <string name="location">Местоположение</string>
+</resources>

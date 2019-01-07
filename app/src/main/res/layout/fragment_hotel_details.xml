@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:padding="@dimen/details_main_layout_padding"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:orientation="vertical">
+
+        <include layout="@layout/hotel_details_top_layout" />
+
+        <include layout="@layout/hotel_details_price_layout" />
+
+        <include layout="@layout/hotel_details_amenity_layout" />
+
+        <include layout="@layout/hotel_details_description_layout" />
+
+        <include layout="@layout/hotel_details_location_layout" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
